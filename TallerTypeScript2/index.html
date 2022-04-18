@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> TV Series </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="data:,"> 
+    <link rel= "stylesheet" href="styles.css">
+    <link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script type = "module" src='./scripts/main.js'></script>
+</head>
+
+<body>
+
+    <h1 style="background-color:rgb(49, 175, 217);">
+        Series de TV
+    </h1>
+
+    <div class = "container-fluid">
+        <div class = row>
+            <div class = "col" id = "columnaTable">
+                <table class = "table" id = "series">
+                    <thead class = "thead-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Canal</th>
+                            <th>Temporadas</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class = "col" id = "columnaCard">
+                <div class = "card" id="cardSerie" style="display:none">
+                    <img class = "card-img-top" src="" id="imgSerie" referrerpolicy="no-referrer"/>
+                    <div class="card-body" id="bodyCard">
+                        <h2 class="card-title" id="nombreSerie">
+                        </h2>
+                        <p class="card-text" id="descripcionSerie">
+                        </p>
+                        <a href="#" id="linkSerie" class="btn btn-primary">
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+</body>
